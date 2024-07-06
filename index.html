@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Face Recognition App</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    </head>
+    <body>
+        <center>
+        <h1>Face Recognition App</h1>
+        <br><br>
+        <h4>This model can recognise:</h4>
+        
+        <h4>Eeshan (ME)</h4>
+        
+        <h4>Pranav (FATHER)</h4>
+        
+        <h4>Teena (MOTHER)</h4>
+        <br><br>
+        <h5>Live Webcam View</h5>
+        <div id="LiveWebcamView"></div>
+        <br><br>
+        <div id="CapturedImage"></div>
+        <br><br>
+        <button onclick="take_snapshot();"class="btn btn-warning">Capture Image</button>
+        <br><br>
+        <button onclick="check();"class="btn btn-danger">Identify Image</button>
+        <br><br>
+
+
+        <h3>Person:  </h3>
+        <h3>Accuracy:  </h3>
+        </center>
+    </body>
+</html>
